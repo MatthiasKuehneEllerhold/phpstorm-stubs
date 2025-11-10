@@ -6716,7 +6716,7 @@ class ImagickDraw
      * Specifies the pattern of dashes and gaps used to stroke paths
      * @link https://php.net/manual/en/imagickdraw.setstrokedasharray.php
      * @param ?array $dashArray <p>
-     * array of floats
+     * array of floats, use NULL to reset
      * </p>
      * @return bool <b>TRUE</b> on success.
      */
